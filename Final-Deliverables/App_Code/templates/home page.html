@@ -1,0 +1,565 @@
+
+
+
+<!DOCTYPE HTML>
+<HTML>
+
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Bootstrap.">  
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <title>Plasma Donor Application</title>
+        <style>
+            /*--------------Images slidshow-----------*/
+
+
+/*@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+div#slider 
+{ 
+	overflow: hidden; 
+}
+
+div#slider figure img 
+{ 
+	width: 20%; float: left; 
+}
+
+div#slider figure 
+{ 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+*/
+
+.container 
+{
+    position:relative;
+    height: 400px;
+    width: 1000px;
+    
+    
+    
+}
+
+.container img 
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFBD00;
+}
+@-webkit-keyframes slidy {
+    0% {
+        opacity: 1;
+    }
+    12.5% {
+        opacity:1;
+    }
+    16.5% {
+        opacity:0;
+    }
+    96% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes slidy {
+    0% {
+        opacity: 1;
+    }
+    12.5% {
+        opacity:1;
+    }
+    16.5% {
+        opacity:0;
+    }
+    96% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.container img:nth-child(8) {
+    -webkit-animation: slidy 40s 0s infinite;
+    animation: slidy 40s 0s infinite;
+}
+.container img:nth-child(7) {
+    -webkit-animation: slidy 40s 5s infinite;
+    animation: slidy 40s 5s infinite;
+}
+.container img:nth-child(6) {
+    -webkit-animation: slidy 40s 10s infinite;
+    animation: slidy 40s 10s infinite;
+}
+.container img:nth-child(5) {
+    -webkit-animation: slidy 40s 15s infinite;
+    animation: slidy 40s 15s infinite;
+}
+.container img:nth-child(4) {
+    -webkit-animation: slidy 40s 20s infinite;
+    animation: slidy 40s 20s infinite;
+}
+.container img:nth-child(3) {
+    -webkit-animation: slidy 40s 25s infinite;
+    animation: slidy 40s 25s infinite;
+}
+.container img:nth-child(2) {
+    -webkit-animation: slidy 40s 30s infinite;
+    animation: slidy 40s 30s infinite;
+}
+.container img:nth-child(1) {
+    -webkit-animation: slidy 40s 35s infinite;
+    animation: slidy 40s 35s infinite;
+}
+
+
+
+/*--------------------INSIDE MAIN CENTER DIVISION-------------------*/
+
+#scrdiv
+{
+
+    margin-left: 2%;
+    margin-right: 7%;
+    width: 91%;
+
+}
+
+/*-----------------FOR HEADINGS-------------------*/
+
+#headiv
+{
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+}
+
+#heading
+{
+
+    color: #4D3C3C; 
+    font-size: 50px;
+
+}
+
+/*---------------HEADINGS UNDER HEADINGS-------------*/
+
+#inheading
+{
+    font-size: 30px;
+    color: #663535;
+}
+
+/*----------------LEFT DIVISION--------------*/
+
+#left
+{
+    width: 35%;
+    /*border-right: 2px solid rgba(184, 184, 184, 0.5);*/
+    box-shadow: 4px 0 4px 0 rgba(0,0,0,0.2), 4px 0 4px 0 rgba(0,0,0,0.19);
+    border-bottom: 2px solid rgba(199, 199, 199, 1);
+    padding-right: 20px;
+    float: left;
+}
+
+
+/*-------------PATRONS---------*/
+
+#roleimg
+{
+
+    border-radius: 100px;
+    box-shadow: 0 0.5px 5px 0.5px;
+    float: left;
+
+}
+
+#roleimg:hover
+{
+    box-shadow: 0 2px 10px 2px;
+    /*transition : box-shadow 1s;
+    */
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+
+;}
+
+#rott1
+{
+
+    color: #663535;
+    font-size: 22px;
+    padding-left: 20px;
+    /*visibility: hidden;*/
+    text-shadow : 0px 1px #000000;
+
+}
+
+#rott2
+{
+
+    color: #663535;
+    font-size: 18px;
+    padding-left: 20px;
+    
+    /*visibility: hidden;*/
+    
+
+
+}
+
+
+
+/*-----------------HIGHLIGHTS------------*/
+
+#highlt
+{
+    margin-left: 40%;
+    margin-right: 10%;
+    width: 61%;
+    border-left: 4px solid rgba(199, 199, 199, 0.3);
+    
+    padding-left: 1%;
+    padding-right: 4%;
+}
+
+#highltin
+{
+
+    margin-left: 3%;
+    margin-right: 6%;
+
+}
+
+
+/*----------APPROVED ACCREDITED--------*/
+
+#rott3
+{
+
+    color: #392020;
+    font-size: 18px;
+    
+    
+    /*visibility: hidden;*/
+    
+
+
+}
+
+/*--------ALL DIVISIONS IN CENTER-------*/
+
+#newdiv
+{
+    margin-left: 40%;
+    margin-right: 10%;
+    width: 61%;
+    border-left: 4px solid rgba(199, 199, 199, 0.3);
+    border-top: 4px solid rgba(199, 199, 199, 0.3);
+    padding-left: 1%;
+    padding-right: 4%;
+}
+
+#rdm
+{
+    float: left;
+}
+
+/*------------THE QUERY FRAME-----------*/
+
+#frame
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 3px;
+    /*box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2), 2px 2px 2px 0 rgba(0,0,0,0.19) , 2px 2px 2px 0 rgba(0,0,0,0.19), 2px 2px 2px 0 rgba(0,0,0,0.19);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0.5px 5px 0.5px;
+
+
+}
+
+#frame:hover
+{
+    box-shadow: 0 1px 10px 1px;
+}
+li{
+    display:inline;
+}
+a{
+    height: 2px;
+    padding: 80px;
+
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+        </style>
+        <script>
+            window.setTimeout(function () {
+                $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                    $(this).remove();
+                });
+            }, 4000);
+            function showdonar(){
+                document.getElementById("home").style.display = "none";
+                    document.getElementById("request").style.display = "none";
+                    document.getElementById("donation").style.display = "block";
+                    document.getElementById("notification").style.display = "none";
+            }
+            function showhome(){
+                    document.getElementById("home").style.display = "block";
+                    document.getElementById("request").style.display = "none";
+                    document.getElementById("donation").style.display = "none";
+                    document.getElementById("notification").style.display = "none";
+            }
+            function showrequest(){
+                document.getElementById("home").style.display = "none";
+                    document.getElementById("request").style.display = "block";
+                    document.getElementById("donation").style.display = "none";
+                    document.getElementById("notification").style.display = "none";
+            }
+            function shownotification(){
+                    document.getElementById("notification").style.display = "block";
+                    document.getElementById("home").style.display = "none";
+                    document.getElementById("request").style.display = "none";
+                    document.getElementById("donation").style.display = "none";
+            }
+        </script>
+	</head>
+
+    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+    <script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<BODY>
+		<nav style="background-color: rgb(139, 107, 26); height: 50px; margin-top: 0px; ">
+			<center>	<ul id="mmenu" style="font-size: 30px;color: white;">
+						<ul>
+							<li><a onclick="showhome()" href="#" style="text-decoration: none; color: white;">Home</a></li>
+							<li><a onclick="showdonar()" href="#"style="text-decoration: none;color: white;">Donate</a></li>
+							<li><a onclick="showrequest()" href="#"style="text-decoration: none;color: white;">Make Request</a></li>
+                            <li><a onclick="shownotification()" href="#"style="text-decoration: none;color: white;">Notification</a></li>
+                            <li><a href="/redirect/login"style="text-decoration: none;color: white;">Logout</a></li>
+						</ul>
+					</li>
+					</ul></center>
+        </nav>
+        <div class="{% if msg =='success' %}alert alert-success{% else %}fade {% endif %}" role="alert">
+            <strong>success!</strong> {{session.msg}} <strong>completed.</strong>
+        </div>
+        <div class="{% if msg =='error' %}alert alert-warning{% else %}fade {% endif %}" role="alert">
+            <strong>Warning!</strong> {{session.msg}} <strong>failed.</strong>
+        </div>
+        <div id="home" style="padding-top: 50px;">
+            <div class="header">
+                <h1>Plasma Donation</h1>
+                <p>Stay fit and eat right and donate blood.</p>
+            </div>
+        </div>
+        <div id="donation" style="display:none">
+            <div class="row pt-5" style="margin-left:15%;">
+                <div class="col-12">
+                    <div class="card bg-light" style="width:80%">
+                        <div class="card-body">
+                            <h4 class="card-title">Donation</h4>
+                            {% if session.requests %}
+                            <table id="myTable" class="table table-striped" >  
+                                <thead>  
+                                  <tr>  
+                                    <th>REQUESTER</th>
+                                    <th>EMAIL</th>
+                                    <th>PHONENUMBER</th>
+                                    <th>BLOODGROUP</th>
+                                    <th>CITY</th>
+                                    <th>STATUS</th>
+                                    <th>#</th> 
+                                  </tr>  
+                                </thead>  
+                                <tbody>  
+                                    {% for n in session.requests %}
+                                  <tr>  
+                                    <td>{{n[1]}}</td>
+                                        <td>{{n[2]}}</td>
+                                        <td>{{n[3]}}</td>
+                                        <td>{{n[4]}}</td>
+                                        <td>{{n[5]}}</td>
+                                        <td>{{n[6]}}</td>
+                                        <td><a class="btn btn-outline-success" href="/donation/{{n[0]}}">Donate</a></td>  
+                                  </tr>  
+                                  {% endfor %} 
+                                </tbody>  
+                              </table>  
+                              
+                            {%else%}
+                            <p class="card-text text-danger">No records found</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="notification" style="display:none">
+            <div class="row pt-5" style="margin-left:15%;">
+                <div class="col-12">
+                    <div class="card bg-light" style="width:80%">
+                        <div class="card-body">
+                            <h4 class="card-title">Notification</h4>
+                            {% if session.notification %}
+                            <table id="myTable" class="table table-striped" >  
+                                <thead>  
+                                  <tr>  
+                                    <th>FROM</th>
+                                    <th>TO</th>
+                                    <th>BODY</th>
+                                    <th>MESSAGE</th>
+                                    <th>#</th> 
+                                  </tr>  
+                                </thead>  
+                                <tbody>  
+                                    {% for n in session.notification %}
+                                  <tr>  
+                                    <td>{{n[1]}}</td>
+                                        <td>{{n[2]}}</td>
+                                        <td>{{n[3]}}</td>
+                                        <td>{{n[4]}}</td>
+                                        <td><a class="btn btn-outline-success" href="/accept/{{n[0]}}">Accpet</a>
+                                        <a class="btn btn-outline-danger" href="/decline/{{n[0]}}">Decline</a></td>  
+                                  </tr>  
+                                  {% endfor %} 
+                                </tbody>  
+                              </table>  
+                              
+                            {%else%}
+                            <p class="card-text text-danger">No notification found</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="request" style="display:none;">
+            <div class="row pt-5" style="margin-left:15%;">
+                <div class="col-12">
+                    <div class="card bg-light" style="width:80%">
+                        <div class="card-body">
+                            <h4 class="card-title">Request form</h4>
+                            <form action="/request" method="POST">
+                                <div class="mb-3 mt-3">
+                                    <label class="mb-1"><h6 class="mb-0 text-sm">Name</h6></label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" value="{{session.name}}" readonly>
+                                </div>
+                                <div class="mb-3 mt-3">
+                                    <label class="mb-1"><h6 class="mb-0 text-sm">BloodGroup</h6></label>
+                                    <select class="mb-4" name="bloodgroup">
+                                        <option value="A+">A+</option>
+                                        <option value="A+">A-</option>
+                                        <option value="A+">B+</option>
+                                        <option value="A+">A-</option>
+                                        <option value="A+">o+</option>
+                                        <option value="A+">o-</option>
+                                        <option value="A+">AB+</option>
+                                        <option value="A+">AB-</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3 mt-3">
+                                    <label class="mb-1"><h6 class="mb-0 text-sm">Phone Number</h6></label>
+                                    <input type="text" class="form-control" id="phno" placeholder="Enter Name" name="phno" value="{{session.phonenumber}}" readonly>
+                                </div>
+                                <div class="mb-3 mt-3">
+                                    <label class="mb-1"><h6 class="mb-0 text-sm">Email</h6></label>
+                                    <input type="text" class="form-control" id="email" placeholder="Enter Email" name="phno" value="{{session.email}}" readonly>
+                                </div>
+                                <div class="mb-3 mt-3">
+                                    <label class="mb-1"><h6 class="mb-0 text-sm">City</h6></label>
+                                    <input type="text" class="form-control" id="city" placeholder="Enter City" name="city">
+                                </div>
+                                <button type="submit" class="btn btn-light btn-outline-success"><i class="material-icons">done</i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myrecords" style="display:none">
+            <div class="row pt-5" style="margin-left:25%;">
+                <div class="col-12">
+                    <div class="card bg-light" style="width:80%">
+                        <div class="card-body">
+                            <h4 class="card-title">My Requests</h4>
+                            {% if session.myrequests %}
+                            <table id="myTable" class="table table-striped"> 
+                                <thead>
+                                    <tr>
+                                        <th>REQUESTER</th>
+                                        <th>EMAIL</th>
+                                        <th>PHONENUMBER</th>
+                                        <th>BLOODGROUP</th>
+                                        <th>CITY</th>
+                                        <th>STATUS</th>
+                                        <th>#</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for n in session.recordsExpence %}
+                                    <tr>
+                                        <td>{{n[1]}}</td>
+                                        <td>{{n[2]}}</td>
+                                        <td>{{n[3]}}</td>
+                                        <td>{{n[4]}}</td>
+                                        <td>{{n[5]}}</td>
+                                        <td>{{n[6]}}</td>
+                                        <td><a href="/donation/{{n[0]}}"></a></td>
+                                    </tr>
+                                    {%endfor%}
+                                </tbody>
+                            </table>
+                            {%else%}
+                            <p class="card-text text-danger">No records found</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</BODY>
+    <script>
+        $(document).ready(function(){
+            $('#myTable').dataTable();
+        });
+    </script>
+</HTML>
+
+
+
